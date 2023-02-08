@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flying Bug</title>
+    <link rel="icon" href="../img/favicon.png" type="type/png">
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js" integrity="sha512-GQ5/eIhs41UXpG6fGo4xQBpwSEj9RrBvMuKyE2h/2vw3a9x85T1Bt0JglOUVJJLeyIUl/S/kCdDXlE/n7zCjIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+
+    <script defer type="module" src="./main.js"></script>
+</head>
+<body>
+    <img src="./asset/bg1.png" id="bg1-img" class="asset-img" />
+    <img src="./asset/bg2.png" id="bg2-img" class="asset-img" />
+    <img src="./asset/bg3.png" id="bg3-img" class="asset-img" />
+    <img src="./asset/Wall.png" id="wall-img" class="asset-img" />
+    <img src="./asset/bird.png" id="bird-img" class="asset-img" />
+    <img src="./asset/coin.png" id="coin-img" class="asset-img" />
+    <h3>마우스로 클릭하면 게임진행이 가능합니다!</h3>
+    <main>
+        <section class="ready-screen">
+            <img src="./asset/title.png" class="title-img">
+            <img src="./asset/play.svg" class="play-img">
+        </section>
+
+        <section class="finish-screen">
+            <div class="distance">0m</div>
+            <div class="coin">0 coin</div>
+            <img src="./asset/replay.svg" class="replay-img">
+        </section>
+        <canvas></canvas>
+    </main>
+    
+</body>
+</html>
